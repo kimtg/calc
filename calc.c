@@ -10,7 +10,7 @@ int main(int argc, char * argv[])
 	puts("Operators: + - * / sqrt expt");
 	puts("Tokens are separated by whitespaces.");
 
-	while (true) {
+	while (1) {
 		printf("> ");
 		scanf_s("%s", buf);
 		if (strcmp(buf, "+") == 0) {
